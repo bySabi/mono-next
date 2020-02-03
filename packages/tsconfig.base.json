@@ -1,0 +1,12 @@
+// tsconfig global project options - build or dev
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "target": "ES6"
+  }
+}

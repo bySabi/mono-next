@@ -1,0 +1,17 @@
+{
+  "name": "mono",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn --cwd packages/www dev"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "npm": "only-use-yarn",
+    "yarn": ">= 1.17.3",
+    "node": ">= 12.5.0"
+  },
+  "private": true
+}

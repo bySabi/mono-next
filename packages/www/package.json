@@ -1,0 +1,26 @@
+{
+  "name": "@mono/www",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "npm": "only-use-yarn",
+    "yarn": ">= 1.17.3",
+    "node": ">= 12.5.0"
+  },
+  "dependencies": {
+    "next": "^9.2.1",
+    "next-transpile-modules": "^3.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "typescript": "^3.7.5"
+  },
+  "license": "ISC"
+}
